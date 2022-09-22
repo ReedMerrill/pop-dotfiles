@@ -16,6 +16,9 @@ export ZSH=$HOME/.zsh
 # Set theme
 source $ZSH/themes/spaceship-prompt/spaceship.zsh-theme
 
+# vi-mode needs to be installed separately and then sourced
+source $ZSH/themes/spaceship-vi-mode/spaceship-vi-mode.plugin.zsh
+
 # Spaceship Config
 SPACESHIP_PROMPT_ORDER=(
   user          # Username section
@@ -25,7 +28,7 @@ SPACESHIP_PROMPT_ORDER=(
   #hg            # Mercurial section (hg_branch  + hg_status)
   exec_time     # Execution time
   line_sep      # Line break
-  #vi_mode       # Vi-mode indicator
+  vi_mode       # Vi-mode indicator
   #commented out since it doesn't work with alacritty right now
   jobs          # Background jobs indicator
   exit_code     # Exit code section
@@ -34,6 +37,9 @@ SPACESHIP_PROMPT_ORDER=(
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_CHAR_SYMBOL="$"
 SPACESHIP_CHAR_SUFFIX=" "
+
+# include vi-mode indicator after prompt char
+spaceship add --before char vi_mode
 
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/reed/.zshrc'
