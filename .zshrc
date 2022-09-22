@@ -22,11 +22,11 @@ SPACESHIP_PROMPT_ORDER=(
   dir           # Current directory section
   host          # Hostname section
   git           # Git section (git_branch + git_status)
-  hg            # Mercurial section (hg_branch  + hg_status)
+  #hg            # Mercurial section (hg_branch  + hg_status)
   exec_time     # Execution time
   line_sep      # Line break
   #vi_mode       # Vi-mode indicator
-  # commented out since it doesn't work with alacritty right now
+  #commented out since it doesn't work with alacritty right now
   jobs          # Background jobs indicator
   exit_code     # Exit code section
   char          # Prompt character
