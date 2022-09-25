@@ -1,7 +1,12 @@
+# This repo is meant to sync my configs between my machines
 # ignore everything
 *
+
+# except the following, which are configs
 !.zshrc
 !.gitconfig
 !.gitignore
 !.vimrc
 !.radian_profile
+!.config/alacritty/alacritty.yml
+!.README.md
