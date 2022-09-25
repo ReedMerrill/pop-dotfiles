@@ -9,5 +9,6 @@
 !.vimrc
 !.radian_profile
 !.config/alacritty/alacritty.yml
+!.config/ranger/rifle.conf
 !.README.md
 !scripts/*
