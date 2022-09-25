@@ -1,4 +1,4 @@
-# This repo is meant to sync my configs between my machines
+# This repo is meant to sync my configs and scripts between my linux machines
 # ignore everything
 *
 
@@ -10,3 +10,4 @@
 !.radian_profile
 !.config/alacritty/alacritty.yml
 !.README.md
+!scripts/*
