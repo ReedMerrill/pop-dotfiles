@@ -1,0 +1,10 @@
+#! /usr/bin/zsh
+
+# start from root
+cd /home/reed
+
+# turn on space-ship-prompt git section
+sed -i '/^#  git           # Git section (git_branch + git_status)$/s/^#//' .zshrc
+
+# reinitialize zsh
+source .zshrc

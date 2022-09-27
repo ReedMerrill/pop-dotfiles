@@ -1,0 +1,7 @@
+#! /bin/bash
+
+cd /home/reed # must be done in home directory
+git pull --merge # manually merge any conflicts
+git add -u # -u option only adds tracked files
+git commit -am "backup at `date`"
+git push 
