@@ -38,9 +38,6 @@ SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_CHAR_SYMBOL="$"
 SPACESHIP_CHAR_SUFFIX=" "
 
-# include vi-mode indicator after prompt char
-spaceship add --before char vi_mode
-
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/reed/.zshrc'
 
